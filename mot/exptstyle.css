@@ -1,0 +1,123 @@
+/* MOT/exptstyle.css:
+ * Additional styling for the MOT task.
+ */
+
+body {
+background-color: black;
+color: white;
+font-family: Arial, sans-serif;
+margin: 0 auto;
+text-align: center;
+font-size:1em;
+}
+
+#exptCanvas {
+display: block;
+}
+
+#preexpt, #postexpt {
+position: fixed;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+top: 48%;
+text-align: center;
+font-size:1.2em;
+}
+
+.ui-button {
+font-size:0.8em;
+}
+
+#reminderButton {
+position: fixed;
+left: 1%;
+bottom: 1%;
+}
+
+a {
+color: #FFCC00;
+font-weight: bold;
+}
+
+a:hover {
+color:white;
+}
+
+#start-box {
+position: fixed;
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+top: 55%;
+z-index: 1;
+}
+
+#response-box {
+position: fixed;
+/*right: 1%;*/
+left: 0;
+right: 0;
+margin-left: auto;
+margin-right: auto;
+bottom: 40%;
+z-index: 1;
+}
+
+#startButton {
+	font-size: 1.25em;
+	background:green;
+	border: 1px solid black;
+}
+
+#blueButton, #yellowButton {
+width: 150px;
+height:100px;
+font-size:1.25em;
+border: 2px solid white;
+}
+
+#blueButton {
+	background: blue;
+	color: white;
+	float: left;
+	margin-left: 1%;
+}
+
+#yellowButton {
+	background: yellow;
+	color:black;
+	float: right;
+	margin-right:1%;
+}
+
+.modal-container {
+position: fixed;
+top:0;
+right:0;
+left:0;
+bottom:0;
+z-index: 2;
+background-color: rgba(0,0,0,0.3);
+}
+
+#reminder {
+text-align: center;
+width: 600px;
+height: 350px;
+display: block;
+padding: 20px;
+background-color: white;
+color: black;
+font-size: 1.1em;
+position: absolute;
+left: 0;
+right:0;
+margin-left: auto;
+margin-right: auto;
+top: 30%;
+border: 2px gray solid;
+border-radius: 25px;
+}
